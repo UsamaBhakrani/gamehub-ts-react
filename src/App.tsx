@@ -1,8 +1,13 @@
+import { Button } from "@chakra-ui/react";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      <Button name="Button" colorScheme="blue">
+        Button
+      </Button>
+    </div>
+  );
+};
 
-export default App
+export default App;
