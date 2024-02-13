@@ -5,6 +5,7 @@ import { AxiosRequestConfig, CanceledError } from "axios";
 export interface FetchDataResponse<T> {
   count: number;
   results: T[];
+  next: string | null;
 }
 
 const useData = <T>(
